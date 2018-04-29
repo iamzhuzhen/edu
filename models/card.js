@@ -7,6 +7,9 @@ module.exports = (sequelize,Sequelize) => {
         name: {
           type: Sequelize.STRING
         },
+        desc: {
+          type: Sequelize.STRING
+        },
         order: {
           type: Sequelize.INTEGER
         },
